@@ -1,0 +1,6 @@
+[package]
+name = "cpptoml"
+version = "lastest"
+cmake = {name = "cpptoml"}
+download = {git="https://github.com/skystrife/cpptoml.git"}
+find_cmake = ""
