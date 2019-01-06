@@ -14,7 +14,7 @@ if(NOT OpenSSL_FOUND AND NOT OpenSSL_FIND_VERSION_EXACT)
         #URL 
         GIT_REPOSITORY https://github.com/openssl/openssl.git
         #GIT_TAG 
-        SOURCE_DIR ${CMAKE_BINARY_DIR}/repo/OpenSSL
+        SOURCE_DIR repo
         #CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local"
         CONFIGURE_COMMAND ./config
         BUILD_COMMAND make
@@ -28,7 +28,7 @@ if(NOT OpenSSL_FOUND AND NOT OpenSSL_FIND_VERSION_EXACT)
         #URL 
         GIT_REPOSITORY https://github.com/openssl/openssl.git
         #GIT_TAG 
-        SOURCE_DIR ${CMAKE_BINARY_DIR}/repo/OpenSSL
+        SOURCE_DIR repo
         #CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local "
         CONFIGURE_COMMAND ./config 
         BUILD_COMMAND make

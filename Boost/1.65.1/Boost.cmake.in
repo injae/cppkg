@@ -14,7 +14,7 @@ if(NOT Boost_FOUND AND NOT Boost_FIND_VERSION_EXACT)
         URL https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.gz
         #GIT_REPOSITORY 
         #GIT_TAG 
-        SOURCE_DIR ${CMAKE_BINARY_DIR}/repo/Boost
+        SOURCE_DIR repo
         CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local "
         CONFIGURE_COMMAND "./bootstrap.sh && ./b2 install"
         #BUILD_COMMAND 
@@ -28,7 +28,7 @@ if(NOT Boost_FOUND AND NOT Boost_FIND_VERSION_EXACT)
         URL https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.gz
         #GIT_REPOSITORY 
         #GIT_TAG 
-        SOURCE_DIR ${CMAKE_BINARY_DIR}/repo/Boost
+        SOURCE_DIR repo
         CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local "
         CONFIGURE_COMMAND ".\boostrap.bat && .\b2"
         #BUILD_COMMAND 
