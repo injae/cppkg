@@ -1,5 +1,6 @@
 [package]
 name = "OpenSSL"
 version = "lastest"
+description = "c++ SSL/TLS Library"
 cmake = {name="OpenSSL::SSL OpenSSL::Crypto",components="Crypto SSL"}
 download =  {git="https://github.com/openssl/openssl.git"}

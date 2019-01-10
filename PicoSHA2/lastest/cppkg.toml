@@ -1,5 +1,0 @@
-[package]
-name = "PicoSHA2"
-version = "lastest"
-cmake = {name="picosha2::picosha2"}
-download = {git="https://github.com/okdshin/PicoSHA2.git"}
