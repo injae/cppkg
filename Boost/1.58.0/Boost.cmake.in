@@ -14,8 +14,7 @@ if(NOT Boost_FOUND AND NOT Boost_FIND_VERSION_EXACT)
         URL http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
         #GIT_REPOSITORY 
         #GIT_TAG 
-        SOURCE_DIR repo
-        CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local "
+        SOURCE_DIR "$ENV{HOME}/.cppm/install"
         CONFIGURE_COMMAND "./bootstrap.sh && ./b2 install"
         #BUILD_COMMAND 
         #INSTALL_COMMAND 
@@ -28,9 +27,8 @@ if(NOT Boost_FOUND AND NOT Boost_FIND_VERSION_EXACT)
         URL http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
         #GIT_REPOSITORY 
         #GIT_TAG 
-        SOURCE_DIR repo
-        CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local "
-        CONFIGURE_COMMAND "cmd /C boostrap.bat msvc && b2.exe install"
+        SOURCE_DIR "$ENV{HOME}/.cppm/install"
+        CONFIGURE_COMMAND "boostrap.bat msvc && b2 install"
         #BUILD_COMMAND 
         #INSTALL_COMMAND 
         BUILD_IN_SOURCE true
