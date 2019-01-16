@@ -2,7 +2,7 @@
 name = "cpptoml"
 # if you use git repo, package version is lastest
 version = "lastest"
-description = ""
+description = "c++ toml parsing library"
 global=false
 # library name in cmake, cppm.toml use this value 
 # [dependencies]

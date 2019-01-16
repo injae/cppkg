@@ -2,7 +2,7 @@
 name = "nlpo"
 # if you use git repo, package version is lastest
 version = "lastest"
-description = ""
+description = "program option library"
 global=false
 # library name in cmake, cppm.toml use this value 
 # [dependencies]

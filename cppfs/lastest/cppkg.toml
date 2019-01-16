@@ -1,12 +1,6 @@
 [package]
 name = "cppfs"
-# if you use git repo, package version is lastest
 version = "lastest"
-description = ""
-# library name in cmake, cppm.toml use this value 
-# [dependencies]
-#${library_name} = {module =${value}}
+description = "cpp filesystem library"
 cmake = {name = "cppfs::cppfs", findlib=""}
-# write download value git or url
 download = {git="https://github.com/cginternals/cppfs.git"}
-#download = {url=""}

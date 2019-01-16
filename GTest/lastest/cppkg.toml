@@ -2,7 +2,7 @@
 name = "GTest"
 # if you use git repo, package version is lastest
 version = "lastest"
-description = ""
+description = "Google test library"
 global=true
 # library name in cmake, cppm.toml use this value 
 # [dependencies]
