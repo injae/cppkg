@@ -27,9 +27,9 @@ if(NOT cppfs_FOUND AND NOT cppfs_FIND_VERSION_EXACT)
         #URL 
         GIT_REPOSITORY https://github.com/cginternals/cppfs.git
         #GIT_TAG 
-        SOURCE_DIR $ENV{HOME}/.cppm/install
+        SOURCE_DIR $ENV{HOME}\.cppm\install
         #if you want local install add CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local
-        CMAKE_ARGS " ${CMAKE_ARGS} -DCMAKE_INSTALL_PREFIX=$ENV{HOME}/.cppm/local"
+        CMAKE_ARGS " ${CMAKE_ARGS} -DCMAKE_INSTALL_PREFIX=$ENV{HOME}\.cppm\local"
         #CONFIGURE_COMMAND 
         #BUILD_COMMAND 
         #INSTALL_COMMAND 
