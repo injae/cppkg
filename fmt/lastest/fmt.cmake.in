@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(fmt-lastest-install NONE)
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
+download_package(fmt lastest GIT https://github.com/fmtlib/fmt.git   LOCAL)
+
+# Other Options:
+# - Linux Configures:
+#    L_CONFIGURE {...}, L_BUILD {...}, L_INSTALL {...}
+# - Windows Configures:
+#    W_CONFIGURE {...}, W_BUILD {...}, W_INSTALL {...}
+# - Install Path Options:
+#    LOCAL(default) GLOBAL 
