@@ -7,7 +7,7 @@ global=false
 # library name in cmake, cppm.toml use this value 
 # [dependencies]
 #${library_name} = {module =${value}}
-cmake = {name = "", findlib=""}
+cmake = {name = "nlpo::nlpo ", findlib=""}
 # write download value git or url
 download = {git="https://github.com/injae/nlpo.git"}
 #download = {url=""}
