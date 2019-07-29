@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
-project(cpptoml-0.1.1-install C CXX)
+project(fmt-5.3.0-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(cpptoml 0.1.1   URL https://github.com/skystrife/cpptoml/archive/v0.1.1.tar.gz LOCAL)
+download_package(fmt 5.3.0   URL https://github.com/fmtlib/fmt/archive/5.3.0.tar.gz LOCAL)
 
 # Other Options:
 # - Linux Configures:
