@@ -2,7 +2,14 @@ cmake_minimum_required(VERSION 3.6)
 project(cpptoml-lastest-install NONE)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(cpptoml lastest GIT https://github.com/skystrife/cpptoml.git   LOCAL)
+download_package(
+    cpptoml
+    lastest
+    GIT https://github.com/skystrife/cpptoml.git
+    LOCAL
+    CMAKE_ARGS
+        CPPTOML_BUILD_EXAMPLES=OFF
+    )
 # Other Options:
 # - Linux Configure:
 #    L_CONFIGURE, L_BUILD, L_INSTALL
