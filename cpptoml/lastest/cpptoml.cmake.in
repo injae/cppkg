@@ -8,8 +8,8 @@ download_package(
     GIT https://github.com/skystrife/cpptoml.git
     LOCAL
     CMAKE_ARGS
-        CPPTOML_BUILD_EXAMPLES=OFF
-        ENABLE_LIBCXX=OFF
+        -DCPPTOML_BUILD_EXAMPLES=OFF
+        -DENABLE_LIBCXX=OFF
     )
 # Other Options:
 # - Linux Configure:
