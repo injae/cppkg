@@ -10,4 +10,4 @@ global=false
 cmake = {name = "ghc_filesystem", findlib=""}
 # write download value git or url
 #download = {git=""}
-download = {url="https://github.com/gulrak/filesystem/archive/v1.2.4"}
+download = {url="https://github.com/gulrak/filesystem/archive/v1.2.4.tar.gz"}
