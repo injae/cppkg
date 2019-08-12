@@ -11,3 +11,4 @@ cmake = {name = "ghc_filesystem", findlib=""}
 # write download value git or url
 #download = {git=""}
 download = {git="https://github.com/gulrak/filesystem.git"}
+[dependencies]
