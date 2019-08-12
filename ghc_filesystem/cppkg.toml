@@ -1,0 +1,13 @@
+[package]
+name = "ghc_filesystem"
+# if you use git repo, package version is lastest
+version = ""
+description = "An implementation of C++17 std::filesystem"
+global=false
+# library name in cmake, cppm.toml use this value 
+# [dependencies]
+#${library_name} = {module =${value}}
+cmake = {name = "ghc_filesystem", findlib=""}
+# write download value git or url
+#download = {git=""}
+download = {url="https://github.com/gulrak/filesystem.git"}
