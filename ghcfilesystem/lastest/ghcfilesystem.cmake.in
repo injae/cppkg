@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
-project(ghc_filesystem-lastest-install C CXX)
+project(ghcfilesystem-lastest-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(ghc_filesystem lastest GIT https://github.com/gulrak/filesystem.git   LOCAL)
+download_package(ghcfilesystem lastest GIT https://github.com/gulrak/filesystem.git   LOCAL)
 
 # Other Options:
 # - Linux Configures:

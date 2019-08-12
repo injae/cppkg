@@ -1,5 +1,5 @@
 [package]
-name = "ghc_filesystem"
+name = "ghcfilesystem"
 # if you use git repo, package version is lastest
 version = "lastest"
 description = "An implementation of C++17 std::filesystem"
