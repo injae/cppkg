@@ -1,13 +1,11 @@
 cmake_minimum_required(VERSION 3.6)
-project(nlpo-git-install NONE)
+project(oboe-git-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(
-    nlpo
-    git
-    GIT https://github.com/injae/nlpo.git
-    LOCAL
-    CMAKE_ARGS ${CMAKE_ARGS})
+download_package(oboe git GIT https://github.com/google/oboe.git
+    L_CONFIGURE "" L_BUILD "" L_INSTALL ""
+    W_CONFIGURE "" W_BUILD "" W_INSTALL ""
+    LOCAL)
 
 # Other Options:
 # - Linux Configures:

@@ -1,13 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
-project(nlpo-git-install NONE)
+project(FunctionalPlus-git-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(
-    nlpo
-    git
-    GIT https://github.com/injae/nlpo.git
-    LOCAL
-    CMAKE_ARGS ${CMAKE_ARGS})
+download_package(FunctionalPlus git GIT https://github.com/Dobiasd/FunctionalPlus.git   LOCAL)
 
 # Other Options:
 # - Linux Configures:

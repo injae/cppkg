@@ -1,13 +1,14 @@
 cmake_minimum_required(VERSION 3.6)
-project(nlpo-git-install NONE)
+project(Catch2-git-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
 download_package(
-    nlpo
+    Catch2
     git
-    GIT https://github.com/injae/nlpo.git
+    GIT https://github.com/catchorg/Catch2.git
     LOCAL
-    CMAKE_ARGS ${CMAKE_ARGS})
+    CMAKE_ARGS ${CMAKE_ARGS}
+)
 
 # Other Options:
 # - Linux Configures:

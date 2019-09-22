@@ -1,0 +1,14 @@
+[package]
+name = "LibtorrentRasterbar"
+# if you use git repo, package version is lastest
+version = "git"
+description = "an efficient feature complete C++ bittorrent implementation"
+global=false
+# library name in cmake, cppm.toml use this value 
+# [dependencies]
+#${library_name} = {module =${value}}
+cmake = {name = "LibtorrentRasterbar::torrent-rasterbar", findlib=""}
+# write download value git or url
+download = {git="https://github.com/arvidn/libtorrent.git"}
+#download = {url=""}
+[dependencies]
