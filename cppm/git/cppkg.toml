@@ -1,0 +1,13 @@
+[package]
+name = "cppm"
+# if you use git repo, package version is git
+version = "git"
+description = "c++ cmake maker use to toml like Cargo"
+global=false
+# library name in cmake, cppm.toml use this value 
+# [dependencies]
+#${library_name} = {module =${value}}
+cmake = {name = "", findlib=""}
+# write download value git or url
+download = {git="https://github.com/injae/cppm.git"}
+#download = {url=""}

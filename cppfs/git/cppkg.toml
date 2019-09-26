@@ -1,6 +1,0 @@
-[package]
-name = "cppfs"
-version = "git"
-description = "cpp filesystem library"
-cmake = {name = "cppfs::cppfs", findlib=""}
-download = {git="https://github.com/cginternals/cppfs.git"}

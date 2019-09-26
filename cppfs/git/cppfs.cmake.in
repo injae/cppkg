@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.6)
-project(cppfs-git-install NONE)
-
-include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(cppfs git GIT https://github.com/cginternals/cppfs.git   LOCAL)
