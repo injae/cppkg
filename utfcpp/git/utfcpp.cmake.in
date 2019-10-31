@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.6)
 project(utfcpp-git-install C CXX)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/cppm_tool.cmake)
-download_package(utfcpp git GIT https://github.com/nemtrif/utfcpp.git   LOCAL
-                 CMAKE_ARGS UTF8_SAMPLES=OFF UTF8_TESTS=OFF)
+download_package(utfcpp git GIT https://github.com/nemtrif/utfcpp.git LOCAL
+                 CMAKE_ARGS -DUTF8_SAMPLES=OFF -DUTF8_TESTS=OFF)
 
 # Other Options:
 # - Linux Configures:
