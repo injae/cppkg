@@ -6,3 +6,9 @@ global=false
 cmake = {name = "oboe", findlib=""}
 download = {git="https://github.com/google/oboe.git"}
 [dependencies]
+
+[oboe]
+version = "git"
+description = "Google Android Audio Library"
+module = "oboe"
+git="https://github.com/google/oboe.git"

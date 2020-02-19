@@ -11,3 +11,9 @@ cmake = {name = "dbg-macro::dbg-macro", findlib=""}
 # write download value git or url
 download = {git="https://github.com/injae/dbg-macro.git"}
 #download = {url=""}
+
+[dbg-macro]
+version = "git"
+description = "Forked: A dbg(…) macro for C++"
+module = "dbg-macro::dbg-macro"
+git="https://github.com/injae/dbg-macro.git"

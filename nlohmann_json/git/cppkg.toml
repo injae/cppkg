@@ -11,4 +11,10 @@ cmake = {name = "nlohmann_json::nlohmann_json", findlib=""}
 # write download value git or url
 download = {git="https://github.com/nlohmann/json.git"}
 #download = {url=""}
-[dependencies]
+
+[nlohmann_json]
+version = "git"
+description = "JSON for Morden C++"
+module = "nlohmann_json::nlohmann_json"
+# write download value git or url
+git="https://github.com/nlohmann/json.git"

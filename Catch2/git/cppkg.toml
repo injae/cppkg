@@ -12,3 +12,9 @@ cmake = {name = "Catch2::Catch2", findlib=""}
 download = {git="https://github.com/catchorg/Catch2.git"}
 #download = {url=""}
 [dependencies]
+
+[Catch2]
+version = "git"
+description = "modern, C++-native, header-only, test framework for unit-tests"
+module = "Catch2::Catch2"
+git="https://github.com/catchorg/Catch2.git"

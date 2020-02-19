@@ -12,3 +12,10 @@ cmake = {name = "FunctionalPlus::fplus", findlib=""}
 download = {git="https://github.com/Dobiasd/FunctionalPlus.git"}
 #download = {url=""}
 [dependencies]
+
+
+[FunctionalPlus]
+version = "git"
+description = "Functional Programming Library for C++"
+module = "FunctionalPlus::fplus"
+git="https://github.com/Dobiasd/FunctionalPlus.git"

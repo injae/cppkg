@@ -11,3 +11,9 @@ cmake = {name = "cpptoml::cpptoml ", findlib=""}
 # write download value git or url
 download = {git="https://github.com/injae/cpptoml.git"}
 #download = {url=""}
+
+[cpptoml]
+version = "git"
+description = "c++ toml parsing library"
+module = "cpptoml"
+git="https://github.com/injae/cpptoml.git"

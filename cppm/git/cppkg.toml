@@ -11,3 +11,10 @@ cmake = {name = "", findlib=""}
 # write download value git or url
 download = {git="https://github.com/injae/cppm.git"}
 #download = {url=""}
+
+
+[cppm]
+version = "git"
+description = "c++ cmake maker use to toml like Cargo"
+type="bin"
+git="https://github.com/injae/cppm.git"
