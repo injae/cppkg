@@ -15,5 +15,5 @@ download = {git="https://github.com/injae/cpptoml.git"}
 [cpptoml]
 version = "git"
 description = "c++ toml parsing library"
-module = "cpptoml"
+module = "cpptoml::cpptoml"
 git="https://github.com/injae/cpptoml.git"
