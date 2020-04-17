@@ -1,5 +1,4 @@
 [fmt]
-name = "fmt"
 version = "git"
 description = "c++ format library"
 module = "fmt::fmt"
