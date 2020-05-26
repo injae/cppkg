@@ -1,5 +1,0 @@
-[oboe]
-version = "git"
-description = "Google Android Audio Library"
-module = "oboe"
-git="https://github.com/google/oboe.git"

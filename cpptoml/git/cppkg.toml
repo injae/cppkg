@@ -1,5 +1,0 @@
-[cpptoml]
-version = "git"
-description = "c++ toml parsing library"
-module = "cpptoml::cpptoml"
-git="https://github.com/injae/cpptoml.git"

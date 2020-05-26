@@ -1,5 +1,0 @@
-[cpptoml]
-version = "0.4.0"
-description = "c++ toml parsing library"
-module = "cpptoml"
-url="https://github.com/injae/cpptoml/archive/0.4.0.tar.gz"
