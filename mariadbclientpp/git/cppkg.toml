@@ -1,0 +1,5 @@
+[mariadbclientpp]
+    version="git"
+    git="https://github.com/viaduck/mariadbpp.git"
+    description="c++ mariadb connector require mariadbclient"
+    module="mariadbclientpp::mariadbclientpp"
