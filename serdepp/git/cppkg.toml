@@ -1,0 +1,8 @@
+[serdepp]
+version="git" #(require)
+type="lib" #lib(default) | bin | cmake
+description="cpp serialize deserialie library" #(require)
+module="serdepp::serdepp" #(require) if none_module=true -> no require
+git="https://github.com/injae/serdepp.git" #(require)
+branch="main" #(optional & require git)
+#link="public" #default
