@@ -1,0 +1,9 @@
+[libpqxx]
+version="7.6.0" #(require)
+type="lib" #lib(default) | bin | cmake
+description="postgresql official c++ library" #(require)
+module="libpqxx::pqxx" #(require) if none_module=true -> no require
+url="https://github.com/jtv/libpqxx/archive/refs/tags/7.6.0.zip" #(require)
+flags="-DBUILD_DOC=OFF -DSKIP_BUILD_TEST=ON -DBUILD_TEST=OFF"
+#branch="" #(optional & require git)
+#link=private #default
