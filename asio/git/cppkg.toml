@@ -1,0 +1,8 @@
+[asio]
+version="git" #(require)
+type="lib" #lib(default) | bin | cmake
+description="c++ asio network library" #(require)
+module="asio::asio" #(require) if none_module=true -> no require
+git="https://github.com/injae/asio.git" #(require)
+#branch="" #(optional & require git)
+#link=private #default
