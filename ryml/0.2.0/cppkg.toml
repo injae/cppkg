@@ -1,0 +1,9 @@
+[ryml]
+version="0.2.0" #(require)
+type="lib" #lib(default) | bin | cmake
+description="Rapid YAML - a library to parse and emit YAML, and do it fast." #(require)
+module="ryml::ryml" #(require) if none_module=true -> no require
+url="https://github.com/biojppm/rapidyaml/releases/download/v0.2.0/ryml-src-0.2.0.zip" #(require)
+flags="-DCPPM_UNINSTALLER_ALREADY_DEFINED=ON"
+#branch="" #(optional & require git)
+#link=private #default
